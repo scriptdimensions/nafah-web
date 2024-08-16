@@ -48,26 +48,30 @@ jQuery(document).ready(function () {
 		}
 
 
-	
+
 
 
 		$(document).on("click", function (e) {
-			if (!$(e.target).is(".sidebar") && !jQuery(e.target).is(".sidebar *") && !jQuery(e.target).is(".menu-icon *")) {
-				$(".sidebar").removeClass("active");
-				$('.sidebar .item-bar li .sub').slideUp(200);
-				$('.sidebar .item-bar .item').removeClass('show');
-				$('.s-navi .await').removeClass('active');
+			if ($(e.target).is(".popup") && !jQuery(e.target).is(".popup *") && !jQuery(e.target).is("[open-ch-popup]")) {
+				$(".popup").removeClass("active");
 			}
 			if (!$(e.target).is(".head-sub") && !jQuery(e.target).is(".head-sub *")) {
 				$(".head-sub").removeClass("show");
 			}
 		});
+		$('*[open-ch-popup]').each(function (index) {
+			var button = $(this);
+			button.on('click', function () {
+				$('*[ch-popup='+$(button).attr("open-ch-popup")+']').addClass('active')
+			})
+		})
 
-		var nameUser = $('.profile-name h4').text().split(' ');
-		var firstLetters = nameUser.map(word => word.charAt(0)).join('');
-		$('.user-setting .icon').text(firstLetters)
-
-
+		$('*[ch-popup]').each(function (index) {
+			var popup = $(this);
+			popup.find('.close').on('click', function () {
+				popup.removeClass('active')
+			})
+		})
 		$('.sidebar .item-bar .item').each(function (index) {
 			var item = $(this),
 				text = item.find('.text');
@@ -82,21 +86,24 @@ jQuery(document).ready(function () {
 		})
 
 		//
-		if (jQuery("#imageUpload").length) {
-		document.getElementById('imageUpload').addEventListener('change', function (event) {
-			const file = event.target.files[0];
-			if (file) {
-				const reader = new FileReader();
-				reader.onload = function (e) {
-					const preview = document.getElementById('imagePreview');
-					preview.src = e.target.result;
-					preview.style.display = 'block';
-					$('.preview-container').addClass('hasimg');
-				};
-				reader.readAsDataURL(file);
-			}
+
+		$('.eye').each(function () {
+			let eye = $(this);
+			let input = eye.siblings('input');
+			input.on('keyup', function () {
+				if ($(this).val().length > 0) {
+					eye.addClass('active')
+				} else {
+					eye.removeClass('active')
+				}
+			})
+			$(this).on('click', function () {
+				var $input = $(this).siblings('input');
+				var type = $input.attr('type') === 'password' ? 'text' : 'password';
+				$input.attr('type', type);
+				$(this).toggleClass('show');
+			});
 		});
-	}
 
 		//
 
@@ -114,6 +121,45 @@ jQuery(document).ready(function () {
 				}
 			});
 		});
+
+
+		
+$('.testimonial .slider').slick({
+	dots: false,
+	infinite: false,
+	arrows:false,
+	speed: 300,
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	responsive: [
+	  {
+		breakpoint: 1024,
+		settings: {
+		  slidesToShow: 3,
+		  slidesToScroll: 3,
+		  infinite: true,
+		  dots: true
+		}
+	  },
+	  {
+		breakpoint: 600,
+		settings: {
+		  slidesToShow: 2,
+		  slidesToScroll: 2
+		}
+	  },
+	  {
+		breakpoint: 480,
+		settings: {
+		  slidesToShow: 1,
+		  slidesToScroll: 1
+		}
+	  }
+	  // You can unslick at a given breakpoint now by adding:
+	  // settings: "unslick"
+	  // instead of a settings object
+	]
+  });
 		//====
 	})(jQuery);
 });
