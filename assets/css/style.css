@@ -1151,7 +1151,7 @@ hr {
 }
 
 .contact-us .wraper {
-    margin-bottom: 32 px;
+    margin-bottom: 32px;
     width: 100%;
 }
 
@@ -1192,7 +1192,6 @@ hr {
     font-weight: 600;
     color: var(--navi-blue);
     padding: 0px 42px;
-    margin-top: 30px;
 }
 
 .contact-us .cm-row {

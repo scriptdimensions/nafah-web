@@ -1,4 +1,111 @@
 @media (max-width: 1740px) {
+	.about-us .text-wraper p {
+		font-size: 25px;
+	}
+
+	.about-us .text-wraper {
+		max-width: 680px;
+	}
+
+	.about-us .img {
+		height: 562px;
+		width: 540px;
+	}
+
+	.academic-benefits .title p {
+		font-size: 24px;
+	}
+
+	.academic-benefits .cm-row {
+		gap: 28px;
+		max-width: 1180px;
+	}
+
+	.academic-benefits .box p {
+		font-size: 22px;
+	}
+
+	.testimonial .slide p {
+		font-size: 22px;
+	}
+
+	.contact-us .wraper label {
+		font-size: 24px;
+		margin-bottom: 12px;
+	}
+
+	.footer h4 {
+		font-size: 28px;
+	}
+
+	.footer .contact .p {
+		font-size: 17px;
+	}
+
+	.footer .news P {
+		font-size: 20px;
+	}
+
+	.footer .links a {
+		font-size: 24px;
+	}
+
+	.footer .logo-wraper p {
+		font-size: 22px;
+	}
+
+	.ask-free {
+		padding-bottom: 128px;
+	}
+
+	.contact-us .text h2 {
+		font-size: 54px;
+	}
+
+	.contact-us .text p {
+		font-size: 24px;
+	}
+
+	.ask-free img {
+		bottom: -130px;
+	}
+
+	.payment-methods li span {
+		font-size: 26px;
+		margin-top: 10px;
+	}
+
+	.ask-free h2 {
+		font-size: 54px;
+	}
+
+	.payment-methods p {
+		font-size: 24px;
+	}
+
+	.payment-methods li img {
+		height: 118.27px;
+		width: 140px;
+	}
+
+	.will-get .img {
+		height: 420px;
+		max-width: 540px;
+	}
+
+	.will-get .text {
+		max-width: 668px;
+	}
+
+	.will-get .text p {
+		font-size: 24px;
+	}
+	.popup .content .input {
+		height: 58px;
+	}.popup .content .input::placeholder {
+		font-size: 18px;
+	}
+	.popup.signin .content,
 	.cm-ctn {
 		max-width: 1290px !important;
 	}
@@ -49,13 +156,13 @@
 		inset: 10% auto 0px 29%;
 	}
 
-	.anim-girl {
+	.home-banner .anim-girl {
 		inset: auto 8% 62px auto;
 		height: 341px;
 		width: 344px;
 	}
 
-	.anim-boy {
+	.home-banner .anim-boy {
 		inset: auto 0px 20px 59px;
 		height: 420px;
 		width: 332px;
@@ -69,6 +176,21 @@
 @media (max-width: 1640px) {}
 
 @media (max-width: 1540px) {
+	.popup .content .submit {
+		height: 58px;
+		margin-bottom: 23px;
+	}
+	.popup.signup .content {
+		max-width: 600px;
+	}
+	.popup .content .title .cm-logo {
+		font-size: 38px;
+		line-height: 36.58px;
+		margin-bottom: 22px;
+	}
+	.info {
+		margin-bottom: 26px;
+	}
 	.home-banner .title {
 		max-width: 856px;
 	}
@@ -87,13 +209,13 @@
 		margin-bottom: 30px;
 	}
 
-	.anim-girl {
+	.home-banner .anim-girl {
 		inset: auto 8% 62px auto;
 		height: 306px;
 		width: 312px;
 	}
 
-	.anim-boy {
+	.home-banner .anim-boy {
 		inset: auto 0px 20px 59px;
 		height: 374px;
 		width: 301px;
@@ -101,6 +223,15 @@
 }
 
 @media (max-width: 1440px) {
+	.about-us .text-wraper p {
+		font-size: 18px;
+	}
+
+	.about-us .text-wraper h2 {
+		font-size: 32px;
+		margin-bottom: 16px;
+	}
+
 	.home-banner .title {
 		max-width: 746px;
 	}
@@ -125,14 +256,223 @@
 		width: 12px;
 	}
 
+	.ask-free .items button {
+		font-size: 20px;
+	}
+	.testimonial .slide p {
+		font-size: 18px;
+	}
+	.testimonial .title h3 {
+		font-size: 32px;
+		margin-bottom: 17px;
+	}
+	.testimonial .title p {
+		font-size: 24px;
+	}
+	.testimonial {
+		padding: 70px 0px;
+	}
+	.testimonial .slider {
+		max-width: 1159px;
+	}
+	.testimonial .slide {
+		border-radius: 27px;
+		height: 296px;
+		margin: 0px 12px;
+	}
+	.testimonial .user a {
+		font-size: 18px;
+	}
+	.footer .links {
+		max-width: 214px;
+	}
+	.footer .contact .icons img {
+		width: 36px;
+		height: 32px;
+	}
+	.footer h4 {
+		font-size: 24px;
+	}
+	.footer .copyright ul a {
+		font-size: 18px;
+	}
+	.footer .copyright P {
+		font-size: 18px;
+	}
+	.footer .links a {
+		font-size: 20px;
+	}
+	.footer .logo-wraper p {
+		font-size: 18px;
+	}
+	.testimonial .user h6 {
+		font-size: 18px;
+	}
+	.testimonial .slide>img {
+		height: 43px;
+		width: 53px;
+	}
+	.contact-us .form {
+		padding: 30px 43px 29px;max-width: 587px;
+	}
+	.contact-us .wraper textarea, .contact-us .wraper input {
+		padding: 0px 20px;
+		height: 58px; padding-top: 2px;
+	}.contact-us .wraper textarea::placeholder,
+	.contact-us .wraper input::placeholder {
+		font-size: 18px;
+	
+	}
+	.contact-us .text p {
+		font-size: 18px;
+	}
+	.contact-us .text h3 {
+		font-size: 32px;
+		margin-bottom: 20px;
+	}
+	.contact-us .wraper textarea {
+		height: 147px;
+		padding-top: 10px;
+	}
+	.contact-us .text h2 {
+		font-size: 44px;
+	}
+	.contact-us .submit {
+		height: 54px;
+		font-size: 20px;
+	}
+	.ask-free {
+		padding-bottom: 50px;
+	}
+	.ask-free h2 {
+		font-size: 44px;
+	}
+
+	.ask-free img {
+		bottom: -52px;
+		max-width: 299px;
+		height: 360px;
+		left: 242px;
+	}
+
+	.will-get .star {
+		width: 50px;
+		height: 56px;
+	}
+
+	.ask-free h3 {
+		font-size: 32px;
+		margin-bottom: 24px;
+	}
+
+	.payment-methods {
+		padding: 68px 0px;
+	}
+
+	.payment-methods li span {
+		font-size: 20px;
+	}
+
+	.payment-methods li img {
+		height: 105.27px;
+		width: 124px;
+	}
+
+	.payment-methods p {
+		font-size: 18px;
+	}
+
+	.payment-methods h3 {
+		font-size: 32px;
+		margin-bottom: 18px;
+	}
+
+	.will-get {
+		padding: 140px 0px;
+	}
+
+	.will-get .img:after {
+		inset: -92px -25px auto auto;
+		height: 81px;
+		width: 88px;
+	}
+
+	.will-get .text p {
+		font-size: 18px;
+	}
+
+	.will-get .img::before {
+		inset: -92px -26px auto 1px;
+		height: 89px;
+		width: 80px;
+	}
+
+	.will-get .img {
+		height: 380px;
+		max-width: 500px;
+	}
+
+	.will-get .text {
+		max-width: 556px;
+	}
+
+	.how-work img {
+		width: 72px;
+		height: 72px;
+	}
+
+	.will-get .text h3 {
+		font-size: 32px;
+		margin-bottom: 24px;
+	}
+	.academic-benefits .box img {
+		height: 40px;
+		width: 39px;
+		margin-bottom: 16px;
+	}
+	.academic-benefits .box p {
+		font-size: 18px;
+	}
+	.academic-benefits .title h2 {
+		font-size: 32px;
+		margin-bottom: 24px;
+	}
+	.academic-benefits .box h3 {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.academic-benefits .box {
+		width: calc(100% / 3 - 19px);
+		padding: 46px 24px;min-height: 308px;
+	}
+
+	.academic-benefits .title p {
+		font-size: 18px;
+	}
+
 	.dots .dote.big {
 		height: 18px;
 		width: 18px;
 	}
 
+	.about-us .img:after {
+		inset: 8px -32px auto auto;
+		height: 86px;
+		width: 97px;
+	}
+
 	.btn-yellow {
-		height: 58px;
-		font-size: 22px;
+		height: 48px;
+		font-size: 18px;
+	}
+
+	.about-us .text-wraper {
+		max-width: 595px;
+	}
+
+	.about-us .img {
+		height: 480px;
+		width: 479px;
 	}
 
 	.home-banner .btn-yellow {
@@ -146,7 +486,7 @@
 	.header nav>ul>li>a {
 		font-size: 17px;
 	}
-
+	.popup.signin .content,
 	.cm-ctn {
 		max-width: 1220px !important;
 	}
@@ -162,34 +502,53 @@
 	.home-banner p {
 		font-size: 22px;
 	}
+
+	.home-banner .anim-girl {
+		inset: auto 8% 62px auto;
+		height: 276px;
+		width: 280px;
+	}
+
+	.home-banner .anim-boy {
+		inset: auto 0px 20px 59px;
+		height: 340px;
+		width: 277px;
+	}
 }
 
 @media (max-width: 1240px) {
 	.home-banner h1 {
 		font-size: 42px;
 	}
+
 	.home-banner .title {
 		max-width: 590px;
 	}
+
 	.home-banner p {
 		font-size: 18px;
 	}
+
 	.anim-boy {
 		height: 322px;
 		width: 290px;
 	}
+
 	.anim-girl {
 		inset: auto 8% 40px auto;
 		height: 264px;
 		width: 256px;
 	}
+
 	.home-banner .btn-yellow {
 		min-width: 180px;
 	}
+
 	.btn-yellow {
 		height: 52px;
 		font-size: 20px;
 	}
+
 	.home-banner {
 		max-height: 670px;
 	}
