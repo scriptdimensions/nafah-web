@@ -267,6 +267,7 @@ header.shadow {
     position: relative;
     overflow: hidden;
 }
+
 .home-banner .btn-yellow:after,
 .header .sign:after {
     content: "";
@@ -280,10 +281,12 @@ header.shadow {
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
     transition: 1s;
 }
+
 .home-banner .btn-yellow:hover:after,
 .header .sign:hover:after {
-     animation: shine 1s 1;
+    animation: shine 1s 1;
 }
+
 .header .sign:hover {
     background-color: var(--green);
 }
@@ -493,14 +496,14 @@ header.shadow {
 }
 
 .academic-benefits .title {
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 .academic-benefits .title h2 {
     color: var(--yellow);
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 52px;
     text-align: center;
 }
 
@@ -650,9 +653,11 @@ header.shadow {
     font-weight: 400;
     transition: 0.4s;
 }
+
 .footer .links a:hover {
-        color: var(--yellow);
+    color: var(--yellow);
 }
+
 .footer h4 {
     color: var(--white);
     font-size: 34px;
@@ -1250,4 +1255,285 @@ hr {
 
 .contact-us .text .icons li:nth-last-child(1) {
     margin-bottom: 0px;
+}
+
+.ask-free {
+    background-color: #21364C;
+    padding-bottom: 201px;
+    padding-top: 100px;
+}
+
+.ask-free .text {
+    max-width: 660px;
+    width: 100%;
+}
+
+.ask-free h3 {
+    color: var(--yellow);
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.ask-free h2 {
+    color: var(--white);
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.ask-free .btn-yellow {
+    padding: 0px 42px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.ask-free .items {
+    max-width: 934px;
+    width: 100%;
+}
+
+.ask-free .items .item {
+    border-bottom: 1px solid var(--white);
+    margin-bottom: 32px;
+}
+
+
+.ask-free .items .item.show {
+    padding-bottom: 21px;
+}
+
+.ask-free .items button {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    padding-bottom: 28px;
+    position: relative;
+    width: 100%;
+}
+
+.ask-free .items button::before,
+.ask-free .items button:after {
+    position: absolute;
+    inset: 16px 0px 0px auto;
+    width: 10px;
+    height: 1px;
+    background-color: white;
+    content: '';
+}
+
+.ask-free .items button::before {
+    transform: rotate(90deg);
+}
+
+.ask-free .items .show button::before {
+    display: none;
+}
+
+.ask-free .items p {
+    color: var(--white);
+    font-weight: 20px;
+}
+
+.ask-free img {
+    max-width: 350px;
+    height: 422px;
+    position: absolute;
+    left: 300px;
+    bottom: -203px;
+}
+
+.ask-free .cm-ctn {
+    position: relative;
+}
+
+.will-get {
+    background-color: #21364C;
+    padding: 213px 0px;
+    position: relative;
+}
+
+.will-get .text {
+    max-width: 793px;
+}
+
+.will-get .text h3 {
+    color: var(--yellow);
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.will-get .text p {
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.how-work {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 45px;
+    color: var(--yellow);
+}
+
+.how-work img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.will-get .img {
+    height: 491px;
+    max-width: 562px;
+    margin-left: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.will-get .img:after {
+    content: '';
+    background-image: url('../images/will-polygon2.png');
+    position: absolute;
+    inset: -139px -26px auto auto;
+    background-size: contain;
+    height: 110px;
+    width: 110px;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.will-get .img::before {
+    content: '';
+    background-image: url('../images/will-polygon.png');
+    position: absolute;
+    inset: -155px -26px auto 1px;
+    background-size: contain;
+    height: 110px;
+    width: 110px;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.will-get .star {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    inset: 10% auto auto 8%;
+}
+
+.will-get .cursor {
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    inset: auto 41% 14% auto;
+    overflow: hidden;
+    border-radius: 50px;
+    object-fit: contain;
+}
+
+.payment-methods li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-methods li img {
+    height: 135.27px;
+    width: 161px;
+    object-fit: contain;
+}
+
+.payment-methods li span {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--white);
+    text-align: center;
+}
+
+.payment-methods ul {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.payment-methods h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--yellow);
+    margin-bottom: 40px;
+}
+
+.payment-methods p {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 40px;
+}
+
+.payment-methods {
+    background-color: var(--navi-blue);
+    padding: 100px 0px;
+    position: relative;
+}
+
+.payment-methods .dots .dote.md:nth-of-type(1) {
+    inset: 25% auto auto 6%;
+}
+
+.payment-methods .dots .dote.md:nth-of-type(2) {
+    inset: 13% 18% auto auto;
+}
+
+.payment-methods .dots .dote.md:nth-of-type(3) {
+    inset: 57% 7% auto auto;
+}
+
+.payment-methods .dots .dote.md:nth-of-type(4) {
+    inset: auto auto 16% 24%;
+}
+
+.academic-benefits .dots .dote.big:nth-of-type(1) {
+    inset: auto auto 45% 3%;
+}
+
+.academic-benefits .dots .dote.md:nth-of-type(2) {
+    inset: 13% auto auto 3%;
+}
+
+.academic-benefits .dots .dote.md:nth-of-type(3) {
+    inset: auto 11% 17% auto;
+}
+
+.academic-benefits .dots .dote.md:nth-of-type(4) {
+    inset: 5% 22% auto auto;
+}
+
+.academic-benefits .dots .dote.sm:nth-of-type(5) {
+    inset: 21% 8% auto auto;
+}
+
+.academic-benefits .dots .dote.sm:nth-of-type(6) {
+    inset: auto auto 15% 10%;
+}
+
+.academic-benefits .star {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    inset: 44% 6% auto auto;
+}
+
+.academic-benefits {
+    position: relative;
+}
+
+.popup.video .content {
+    width: 300px;
+    height: 300px;
 }
