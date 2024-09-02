@@ -100,11 +100,15 @@
 	.will-get .text p {
 		font-size: 24px;
 	}
+
 	.popup .content .input {
 		height: 58px;
-	}.popup .content .input::placeholder {
+	}
+
+	.popup .content .input::placeholder {
 		font-size: 18px;
 	}
+
 	.popup.signin .content,
 	.cm-ctn {
 		max-width: 1290px !important;
@@ -173,24 +177,202 @@
 	}
 }
 
-@media (max-width: 1640px) {}
+@media (max-width: 1640px) {
+	.home-banner .btn-yellow {
+		min-width: 212px;
+	}
+
+	.about-us .text-wraper p {
+		font-size: 22px;
+	}
+
+	.about-us .text-wraper h2 {
+		font-size: 38px;
+		margin-bottom: 18px;
+	}
+
+	.about-us .text-wraper .button {
+		margin-top: 28px;
+	}
+
+	.btn-yellow {
+		height: 56px;
+		font-size: 22px;
+		min-width: 208px;
+	}
+
+	.academic-benefits {
+		padding: 70px 0px;
+	}
+
+	.academic-benefits .title h2 {
+		font-size: 38px;
+		margin-bottom: 26px;
+	}
+
+	.academic-benefits .title p {
+		font-size: 22px;
+	}
+
+	.academic-benefits .title {
+		margin-bottom: 52px;
+	}
+
+	.academic-benefits .box {
+		padding: 36px 30px;
+		min-height: 307px;
+	}
+
+	.academic-benefits .box p {
+		font-size: 20px;
+	}
+
+	.academic-benefits .box img {
+		height: 42px;
+		width: 42px;
+	}
+
+	.will-get .text h3 {
+		font-size: 38px;
+		margin-bottom: 26px;
+	}
+
+	.will-get .text p {
+		font-size: 22px;
+	}
+
+	.will-get {
+		padding: 140px 0px;
+	}
+
+	.will-get .img {
+		height: 390px;
+		max-width: 517px;
+	}
+
+	.will-get .img:after {
+		inset: -85px -26px auto auto;
+		height: 90px;
+		width: 90px;
+	}
+
+	.will-get .img::before {
+		inset: -79px -26px auto 1px;
+		height: 90px;
+		width: 90px;
+	}
+
+	.payment-methods h3 {
+		font-size: 38px;
+		margin-bottom: 28px;
+	}
+
+	.contact-us .submit {
+		height: 56px;
+		font-size: 22px;
+		padding: 0px 42px;
+	}
+
+	.contact-us .wraper textarea,
+	.contact-us .wraper input {
+		height: 54px;
+	}
+
+	.contact-us .wraper label {
+		font-size: 22px;
+		margin-bottom: 7px;
+	}
+
+	.contact-us .wraper textarea {
+		height: 159px;
+	}
+
+	.contact-us .wraper {
+		margin-bottom: 16px;
+	}
+
+	.contact-us .text p {
+		font-size: 22px;
+	}
+
+	.contact-us .text img {
+		width: 58px;
+		height: 58px;
+	}
+
+	.contact-us .text .p {
+		font-size: 18px;
+	}
+
+	.contact-us .text h2 {
+		font-size: 48px;
+	}
+
+	.contact-us .text h3 {
+		font-size: 37px;
+		margin-bottom: 26px;
+	}
+
+	.contact-us .form {
+		max-width: 636px;
+	}
+
+	.contact-us .wraper textarea::placeholder,
+	.contact-us .wraper input::placeholder {
+		font-size: 20px;
+	}
+	.footer h4 {
+		font-size: 24px;
+	}
+	.footer .links a {
+		font-size: 22px;
+	}
+	.footer .input-form {
+		height: 58px;
+	}
+	.footer .submit {
+		min-width: 56px;
+		height: 57px;
+	}
+	.footer .copyright {
+		padding: 26px 0px 24px 0px;
+	}
+	.footer .copyright ul a {
+		font-size: 19px;
+	}
+	.footer .copyright P {
+		font-size: 19px;
+	}
+	.testimonial .title p {
+		font-size: 25px;
+	}
+	.will-get .star {
+		width: 80px;
+		height: 60px;
+		object-fit: contain;
+	}
+}
 
 @media (max-width: 1540px) {
 	.popup .content .submit {
 		height: 58px;
 		margin-bottom: 23px;
 	}
+
 	.popup.signup .content {
 		max-width: 600px;
 	}
+
 	.popup .content .title .cm-logo {
 		font-size: 38px;
 		line-height: 36.58px;
 		margin-bottom: 22px;
 	}
+
 	.info {
 		margin-bottom: 26px;
 	}
+
 	.home-banner .title {
 		max-width: 856px;
 	}
@@ -259,91 +441,121 @@
 	.ask-free .items button {
 		font-size: 20px;
 	}
+
 	.testimonial .slide p {
 		font-size: 18px;
 	}
+
 	.testimonial .title h3 {
 		font-size: 32px;
 		margin-bottom: 17px;
 	}
+
 	.testimonial .title p {
 		font-size: 24px;
 	}
+
 	.testimonial {
 		padding: 70px 0px;
 	}
+
 	.testimonial .slider {
 		max-width: 1159px;
 	}
+
 	.testimonial .slide {
 		border-radius: 27px;
 		height: 296px;
 		margin: 0px 12px;
 	}
+
 	.testimonial .user a {
 		font-size: 18px;
 	}
+
 	.footer .links {
 		max-width: 214px;
 	}
+
 	.footer .contact .icons img {
 		width: 36px;
 		height: 32px;
 	}
+
 	.footer h4 {
 		font-size: 24px;
 	}
+
 	.footer .copyright ul a {
 		font-size: 18px;
 	}
+
 	.footer .copyright P {
 		font-size: 18px;
 	}
+
 	.footer .links a {
 		font-size: 20px;
 	}
+
 	.footer .logo-wraper p {
 		font-size: 18px;
 	}
+
 	.testimonial .user h6 {
 		font-size: 18px;
 	}
+
 	.testimonial .slide>img {
 		height: 43px;
 		width: 53px;
 	}
+
 	.contact-us .form {
-		padding: 30px 43px 29px;max-width: 587px;
+		padding: 30px 43px 29px;
+		max-width: 587px;
 	}
-	.contact-us .wraper textarea, .contact-us .wraper input {
+
+	.contact-us .wraper textarea,
+	.contact-us .wraper input {
 		padding: 0px 20px;
-		height: 58px; padding-top: 2px;
-	}.contact-us .wraper textarea::placeholder,
+		height: 58px;
+		padding-top: 2px;
+	}
+
+	.contact-us .wraper textarea::placeholder,
 	.contact-us .wraper input::placeholder {
 		font-size: 18px;
-	
+
 	}
+
 	.contact-us .text p {
 		font-size: 18px;
 	}
+
 	.contact-us .text h3 {
 		font-size: 32px;
 		margin-bottom: 20px;
 	}
+
 	.contact-us .wraper textarea {
 		height: 147px;
 		padding-top: 10px;
 	}
+
 	.contact-us .text h2 {
 		font-size: 44px;
 	}
+
 	.contact-us .submit {
 		height: 54px;
 		font-size: 20px;
 	}
+
 	.ask-free {
 		padding-bottom: 50px;
 	}
+
 	.ask-free h2 {
 		font-size: 44px;
 	}
@@ -425,25 +637,31 @@
 		font-size: 32px;
 		margin-bottom: 24px;
 	}
+
 	.academic-benefits .box img {
 		height: 40px;
 		width: 39px;
 		margin-bottom: 16px;
 	}
+
 	.academic-benefits .box p {
 		font-size: 18px;
 	}
+
 	.academic-benefits .title h2 {
 		font-size: 32px;
 		margin-bottom: 24px;
 	}
+
 	.academic-benefits .box h3 {
 		font-size: 24px;
 		margin-bottom: 10px;
 	}
+
 	.academic-benefits .box {
 		width: calc(100% / 3 - 19px);
-		padding: 46px 24px;min-height: 308px;
+		padding: 46px 24px;
+		min-height: 308px;
 	}
 
 	.academic-benefits .title p {
@@ -486,6 +704,7 @@
 	.header nav>ul>li>a {
 		font-size: 17px;
 	}
+
 	.popup.signin .content,
 	.cm-ctn {
 		max-width: 1220px !important;
@@ -517,6 +736,9 @@
 }
 
 @media (max-width: 1240px) {
+	.popup.signin .content, .cm-ctn {
+		max-width: 1060px !important;
+	}
 	.home-banner h1 {
 		font-size: 42px;
 	}
